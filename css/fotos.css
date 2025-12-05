@@ -194,3 +194,115 @@ footer {
     box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.8);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+@media (max-width: 800px) {
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px 20px;
+        text-align: center;
+    }
+
+    .titulo {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    header ul {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    header a {
+        font-size: 18px;
+        padding: 8px 0;
+    }
+
+    .secao-fotos {
+        padding: 30px 15px;
+    }
+
+    .secao-fotos h2 {
+        font-size: 2.2rem;
+    }
+
+    .descricao {
+        font-size: 1.2rem;
+        max-width: 90%;
+    }
+
+    .galeria {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .foto-item1, .foto-item2, .foto-item3 {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .foto-item1 p, .foto-item2 p, .foto-item3 p {
+        font-size: 1.15rem;
+    }
+
+    .foto-item1 img, .foto-item2 img, .foto-item3 img {
+        height: auto;
+    }
+
+    .integrantes {
+        padding: 40px 15px;
+    }
+
+    .integrantes h2 {
+        font-size: 2.3rem;
+    }
+
+    .integrantes p {
+        font-size: 1.2rem;
+        max-width: 90%;
+    }
+
+    .integrantes h4 {
+        font-size: 1.9rem;
+    }
+
+    .integrantes-galeria {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        padding: 10px;
+    }
+
+    .integrante1, .integrante2, .integrante3, .integrante4 {
+        padding: 18px;
+        text-align: center;
+    }
+
+    .integrante1 h3, .integrante2 h3, .integrante3 h3, .integrante4 h3 {
+        font-size: 1.8rem;
+    }
+
+    .integrante1 p, .integrante2 p, .integrante3 p, .integrante4 p {
+        font-size: 1.15rem;
+        margin-top: 20px;
+    }
+
+    .integrante1 img, .integrante2 img, .integrante3 img, .integrante4 img {
+        height: auto;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    * {
+        scrollbar-width: none;
+    }
+
+    footer {
+        padding: 18px 10px;
+        font-size: 0.9rem;
+    }
+}

@@ -135,3 +135,83 @@ footer {
     box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.8);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+@media (max-width: 800px) {
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px 20px;
+        text-align: center;
+    }
+
+    header .titulo {
+        font-size: 30px;
+    }
+
+    header ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    header a {
+        font-size: 18px;
+        padding: 8px 0;
+    }
+
+    .intro {
+        padding: 40px 15px;
+    }
+
+    .intro h1 {
+        font-size: 2.2rem;
+    }
+
+    .intro p {
+        font-size: 1.2rem;
+        max-width: 90%;
+    }
+
+    .timeline {
+        gap: 35px;
+    }
+
+    .evento {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+        gap: 20px;
+    }
+
+    .evento img {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+    }
+
+    .texto h2 {
+        font-size: 1.5rem;
+    }
+
+    .texto p {
+        font-size: 1.15rem;
+        line-height: 1.5;
+    }
+
+    #ev1, #ev4 {
+        margin: 0;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    * {
+        scrollbar-width: none;
+    }
+
+    footer {
+        padding: 18px 10px;
+        font-size: 0.9rem;
+    }
+}
